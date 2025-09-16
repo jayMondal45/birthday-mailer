@@ -1,5 +1,22 @@
-# birthday-mailer
-Automated birthday email sender 🎂. Reads birthdays from a CSV file, matches today’s date, and sends personalized emails using Gmail SMTP. Includes random letter templates + a special romantic message for a girlfriend. A fun Python project for learning automation, file handling, and email integration.
+# 🎂 Birthday Mailer
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)  
+Automated **birthday email sender** built with Python.  
+Reads birthdays from a CSV file, checks if today matches, and sends personalized emails via **Gmail SMTP**.  
+Includes multiple templates + a special romantic letter 💌.
+
+---
+
+## ✨ Features
+- 📅 Reads birthdays from a CSV file (`birthdays.csv`)
+- 📨 Sends personalized birthday emails using Gmail SMTP
+- 🎨 Randomized templates (`letter_1.txt`, `letter_2.txt`, `letter_3.txt`)
+- 💖 Special romantic birthday message for your girlfriend
+- ✅ Error handling for missing/invalid data
+- 🔒 Gmail App Password authentication
+
+---
+
 
 ## 📸 Screenshots
 
@@ -11,3 +28,8 @@ Automated birthday email sender 🎂. Reads birthdays from a CSV file, matches t
 
 ### 3. Birthday Letter Example
 ![Letter Template](assets/letter.png)
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/birthday-mailer.git
+cd birthday-mailer
